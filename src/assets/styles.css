@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Dicier-Block;
+        font-weight: 400;
+        src: url("/src/assets/fonts/Dicier-Block-Light.otf") format("otf");
+    }
+    @font-face {
+        font-family: Dicier-Block;
+        font-weight: 700;
+        src: url("/src/assets/fonts/Dicier-Block-Heavy.otf") format("otf");
+    }
+    @font-face {
+        font-family: Dicier-Block;
+        font-weight: 900;
+        src: url("/src/assets/fonts/Dicier-Block-Dark.otf") format("otf");
+    }
+    
+    @font-face {
+        font-family: Dicier-Flat;
+        font-weight: 400;
+        src: url("/src/assets/fonts/Dicier-Flat-Light.otf") format("otf");
+    }
+    @font-face {
+        font-family: Dicier-Flat;
+        font-weight: 700;
+        src: url("/src/assets/fonts/Dicier-Flat-Heavy.otf") format("otf");
+    }
+    @font-face {
+        font-family: Dicier-Flat;
+        font-weight: 900;
+        src: url("/src/assets/fonts/Dicier-Flat-Dark.otf") format("otf");
+    }
+
+    @font-face {
+        font-family: Dicier-Round;
+        font-weight: 400;
+        src: url("/src/assets/fonts/Dicier-Round-Light.otf") format("otf");
+    }
+    @font-face {
+        font-family: Dicier-Round;
+        font-weight: 700;
+        src: url("/src/assets/fonts/Dicier-Round-Heavy.otf") format("otf");
+    }
+    @font-face {
+        font-family: Dicier-Round;
+        font-weight: 900;
+        src: url("/src/assets/fonts/Dicier-Round-Dark.otf") format("otf");
+    }
+
+    @font-face {
+        font-family: Dicier-Pixel;
+        font-weight: 400;
+        src: url("/src/assets/fonts/Dicier-Pixel.otf") format("otf");
+    }
+}
